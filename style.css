@@ -461,3 +461,19 @@ h1 .title-cursor  {
    border-right: 3px solid var(--yellow);
    }
 
+
+/* Donaciones */
+.donation-button {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 18px;
+  background: var(--purple);
+}
+.donation-button:hover {
+  background: var(--cyan);
+}
+.donation-button:focus-visible {
+  outline-offset: 3px;
+  clip-path: none;
+}
